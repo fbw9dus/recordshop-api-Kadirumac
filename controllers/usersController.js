@@ -14,7 +14,7 @@ exports.getUser = async (req, res, next) => {
 
 exports.deleteUser = async (req, res, next) => {
   const { id } = req.params;
-  // Schreib hier code um den Kunden mit der id aus params aus der users-Collection zu löschen
+
   
   res.status(200).send(user);
 };
